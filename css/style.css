@@ -1,0 +1,272 @@
+/* Global style */
+html{
+    box-sizing: border-box;
+    font-family: pr;
+    color: #363636;
+    scroll-behavior: smooth;
+}
+a{
+    color: #363636;
+    text-decoration: none;
+}
+a:hover{
+    color: #363636;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    font-family: pr;
+}
+.font-regular{font-family: pr;}
+.font-bold{font-family: pb;}
+.font-black{font-family: pblack;}
+.font-semi{font-family: ps;}
+.font-light{font-family: pl;}
+/* Main-Color */
+.second-color{color: #363636 !important;}
+.p-color{color: #6C6C6C !important;}
+.p-white-color{color: #DFDFDF;}
+.bg-color{
+    background-color: #363636;
+}
+.bg-second-color{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.about-jam img{
+    width: 16px !important;
+    margin-right: 10px;
+}
+/* animation/hover */
+.nav-item:hover a{
+    color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    bottom: 5px;
+    transition-duration: 300ms;
+}
+/* font style */
+.tittle{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.paragraf{
+    font-size: 18px;
+    font-family: pr;
+    line-height: 30px;
+}
+/* Button style */
+.main-btn{
+    background-color: #363636;
+    font-family: ps;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 0;
+    border: none;
+}
+.main-btn:hover{
+    transform: translateX(10px);
+    transition: 300ms;
+    color: white;
+}
+.btn-filter{
+  border: 1px solid #6C6C6C;
+  background-color:transparent;
+  padding: 15px 20px;
+  border-radius: 0;
+  color: #515151;
+}
+/* space content */
+.space-content{
+    padding: 100px 0;
+}
+/* font */
+@font-face{
+    font-family: pr;
+    src: url(../asset/font/static/Jost-Regular.ttf);
+}
+@font-face{
+    font-family: pb;
+    src: url(../asset/font/static/Jost-Bold.ttf);
+}
+@font-face{
+    font-family: pblack;
+    src: url(../asset/font/static/Jost-Black.ttf);
+}
+@font-face{
+    font-family: ps;
+    src: url(../asset/font/static/Jost-SemiBold.ttf);
+}
+@font-face{
+    font-family: pl;
+    src: url(../asset/font/static/Jost-Light.ttf);
+}
+
+/* All Style */
+/* navigasi */
+.nav-right img{
+    width: 16px;
+}
+/* Banner */
+.bg-banner{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 500px;
+    height: 500px;
+    bottom: 150px;
+    right: 200px;
+    z-index: -1;
+}
+/* Produk */
+.box-produk-aksi{
+    opacity: 0;
+    transform: translateX(0px);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.box-produk-aksi a{
+    background-color: white;
+    margin: 0 5px;
+    padding: 10px;
+}
+.box-produk-aksi a:hover{
+    transform: translateY(-5px);
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+.box-produk:hover .box-produk-aksi{
+    opacity: 1;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+/* Service */
+.col-service img{
+    width: 50px;
+}
+/* Testimoni */
+.testi-icon{
+    font-size: 100px;
+}
+.carousel-inner{
+    padding: 0 20%;
+}
+/* footer */
+#footer h4{
+    font-family: ps;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+#footer p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6)
+}
+.footer-kontak{
+    display: flex;
+}
+.footer-kontak img{
+    margin-right: 10px;
+    margin-bottom: 30px;
+    width: 25px;
+}
+/* FAQ */
+.accordion-button:not(.collapsed){
+    color: #363636 !important;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+/*//////////////////// Page Tentang Kamiii ////////////////*/
+#banner-about{
+    background-image: url(../asset/img/banner/banner-about.jpg);
+    background-size: 100%;
+    padding: 15%;
+    background-repeat: no-repeat;
+}
+.bg-about{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+/* Responsive */
+@media only screen and (max-width: 768px) {
+    /* About pagee */
+    #banner-about{
+        background-size: auto;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        background-position: center;
+    }
+    /* Login AND REGISTER */
+    .login-form{
+        width: 100% !important;
+        box-shadow: none !important;
+    }
+}
+/* Code Pen */
+.card-1 {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.card-1:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+/* Card */
+/* Lazy Load Styles */
+.card-image {
+	display: block;
+	min-height: 30rem; /* layout hack */
+	background: #fff center center no-repeat;
+	background-size: cover;
+	filter: blur(3px); /* blur the lowres image */
+}
+
+.card-image > img {
+	display: block;
+	width: 100%;
+	opacity: 0; /* visually hide the img element */
+}
+
+.card-image.is-loaded {
+	filter: none; /* remove the blur on fullres image */
+	transition: filter 1s;
+}
+
+
+/* Layout Styles */
+.card-list {
+	display: block;
+	margin: 1rem auto;
+	padding: 0;
+	font-size: 0;
+	text-align: center;
+	list-style: none;
+}
+
+.card {
+	display: inline-block;
+	width: 90%;
+	max-width: 30rem;
+	margin: 1rem;
+	font-size: 1rem;
+	text-decoration: none;
+	overflow: hidden;
+	box-shadow: 0 0 3rem -1rem rgba(0,0,0,0.5);
+	transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+}
+
+.card:hover {
+	transform: translateY(-0.5rem) scale(1.0125);
+	box-shadow: 0 0.5em 3rem -1rem rgba(0,0,0,0.5);
+}
+
+.card-description {
+	display: block;
+	padding: 1em 0.5em;
+	color: #515151;
+	text-decoration: none;
+}
+
+.card-description > h2 {
+	margin: 0 0 0.5em;
+}
+
+.card-description > p {
+	margin: 0;
+}
+/* Search **/
+
+
+
+

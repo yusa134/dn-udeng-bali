@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- P;ugin CSS -->
+    <link href="asset/plugin/bootstrap-5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="asset/plugin/aos-master/dist/aos.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>DN Udeng Bali</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <div id="header" data-aos="fade-down" data-aos-duration="300" data-aos-delay="0">
+        <div class="container">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span><img src="asset/img/icon/menu-icon.svg" alt=""></span>
+                    </button>
+                  <a class="navbar-brand font-bold" href="#">DN Udeng Bali</a>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 font-semi">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html">Tentang Kami</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="produk.html">Produk</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Hubungi Kami</a>
+                      </li>
+                    </ul>
+                  </div>
+                <div class="nav-right">
+                    <a href="login.html"><img src="asset/img/icon/user-icon.svg" alt="" class="second-color ms-2"></a>
+                </div>
+                </div>
+              </nav>
+        </div>
+    </div>  
+    <!-- Bnner -->
+    <div id="banner-about" class="" data-aos="zoom-in-right" data-aos-duration="500" data-aos-delay="100">
+        <div class="container bg-about py-5">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center align-items-center flex-column" data-aos="zoom-in-right" data-aos-duration="500" data-aos-delay="300">
+                    <h1 class="second-color">Produk Kami</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="index.html" class="">Beranda</a></li>
+                          <li class="breadcrumb-item active" aria-current="page"><a href="produk.html" class="">Produk Kami</a></li>
+                        </ol>
+                      </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Menu seacrh and filter -->
+    <div id="search" class="pt-5 pt-md-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex align-items-center">
+                  <div class="search-box w-100">
+                    <input type="text" placeholder="Cari Produk...." class="search w-100 p-3">
+                  </div>
+                  <div class="search-icon p-3 ">
+                    <a href=""><img src="asset/img/icon/search-icon.svg" alt=""></a>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- filter -->
+    <div id="filter" class="pb-5 pt-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-6 mb-3 mb-md-0">
+            <div class="filter-box">
+              <div class="dropdown">
+                <button class="btn btn-filter font-semi dropdown-toggle w-100" type="button" id="kategori" data-bs-toggle="dropdown" aria-expanded="false">
+                  Kategori
+                </button>
+                <ul class="dropdown-menu w-100 rounded-0" aria-labelledby="kategori">
+                  <li><a class="dropdown-item" href="#">Udeng Batik</a></li>
+                  <li><a class="dropdown-item" href="#">Udeng Hitam Putih</a></li>
+                  <li><a class="dropdown-item" href="#">Udeng Semi Songket</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 mb-3 mb-md-0">
+            <div class="filter-box">
+              <div class="dropdown">
+                <button class="btn btn-filter font-semi dropdown-toggle w-100" type="button" id="harga" data-bs-toggle="dropdown" aria-expanded="false">
+                  Harga
+                </button>
+                <ul class="dropdown-menu w-100 rounded-0" aria-labelledby="harga">
+                  <li><a class="dropdown-item" href="#">0-Rp.50.000</a></li>
+                  <li><a class="dropdown-item" href="#">Rp.50.000-Rp.150.000</a></li>
+                  <li><a class="dropdown-item" href="#">Rp.150.000-Rp.200.000</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="filter-box">
+              <div class="dropdown">
+                <button class="btn btn-filter font-semi dropdown-toggle w-100" type="button" id="urutan" data-bs-toggle="dropdown" aria-expanded="false">
+                  Urutan
+                </button>
+                <ul class="dropdown-menu w-100 rounded-0" aria-labelledby="urutan">
+                  <li><a class="dropdown-item" href="#">Termahal</li>
+                  <li><a class="dropdown-item" href="#">Termurah</a></li>
+                  <li><a class="dropdown-item" href="#">Terpopuler</a></li>
+                  <li><a class="dropdown-item" href="#">Terlaris</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="filter-box">
+              <div class="dropdown">
+                <button class="btn btn-filter font-semi dropdown-toggle w-100" type="button" id="warna" data-bs-toggle="dropdown" aria-expanded="false">
+                  Warna
+                </button>
+                <ul class="dropdown-menu w-100 rounded-0" aria-labelledby="warna">
+                  <li><a class="dropdown-item" href="#">Hitam</a></li>
+                  <li><a class="dropdown-item" href="#">Putih</a></li>
+                  <li><a class="dropdown-item" href="#">Coklat</a></li>
+                  <li><a class="dropdown-item" href="#">Merah</a></li>
+                  <li><a class="dropdown-item" href="#">Biru</a></li>
+                  <li><a class="dropdown-item" href="#">Kuning</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Produk-LIst -->
+    <div id="produk-list" class="pt-1 pb-5">
+      <div class="container">
+        <p class="p-color">Tampilkan 12 dari 2 halaman</p>
+        <div class="row g-0 gx-md-3">
+          <div class="col-md-3 col-6 text-center position-relative pb-5">
+            <a href="detail-produk.html">
+              <div class="card card-1">
+                <div class="box-produk">
+                    <div class="box-produk-img img-fluid w-100">
+                        <img src="asset/img/Produk/p-populer-1.png" alt="" class="w-100">
+                    </div>
+                    <div class="box-produk-text py-3">
+                        <p class="font-semi m-0">Udeng Semi Batik Hitam</p>
+                        <span class="d-block m-0 mt-1 p-color">Rp.89.900</span>
+                    </div>
+                    <div class="box-produk-aksi position-absolute top-0 d-flex align-items-center justify-content-center h-100 w-100">
+                    </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 col-6 text-center position-relative pb-5">
+            <div class="card card-1">
+              <div class="box-produk">
+                  <div class="box-produk-img img-fluid w-100">
+                      <img src="asset/img/Produk/p-populer-1.png" alt="" class="w-100">
+                  </div>
+                  <div class="box-produk-text py-3">
+                      <p class="font-semi m-0">Udeng Semi Batik Hitam</p>
+                      <span class="d-block m-0 mt-1 p-color">Rp.89.900</span>
+                  </div>
+                  <div class="box-produk-aksi position-absolute top-0 d-flex align-items-center justify-content-center h-100 w-100">
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 text-center position-relative pb-5">
+            <div class="card card-1">
+              <div class="box-produk">
+                  <div class="box-produk-img img-fluid w-100">
+                      <img src="asset/img/Produk/p-populer-1.png" alt="" class="w-100">
+                  </div>
+                  <div class="box-produk-text py-3">
+                      <p class="font-semi m-0">Udeng Semi Batik Hitam</p>
+                      <span class="d-block m-0 mt-1 p-color">Rp.89.900</span>
+                  </div>
+                  <div class="box-produk-aksi position-absolute top-0 d-flex align-items-center justify-content-center h-100 w-100">
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 text-center position-relative pb-5">
+            <div class="card card-1">
+              <div class="box-produk">
+                  <div class="box-produk-img img-fluid w-100">
+                      <img src="asset/img/Produk/p-populer-1.png" alt="" class="w-100">
+                  </div>
+                  <div class="box-produk-text py-3">
+                      <p class="font-semi m-0">Udeng Semi Batik Hitam</p>
+                      <span class="d-block m-0 mt-1 p-color">Rp.89.900</span>
+                  </div>
+                  <div class="box-produk-aksi position-absolute top-0 d-flex align-items-center justify-content-center h-100 w-100">
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 text-center position-relative pb-5">
+            <div class="card card-1">
+              <div class="box-produk">
+                  <div class="box-produk-img img-fluid w-100">
+                      <img src="asset/img/Produk/p-populer-1.png" alt="" class="w-100">
+                  </div>
+                  <div class="box-produk-text py-3">
+                      <p class="font-semi m-0">Udeng Semi Batik Hitam</p>
+                      <span class="d-block m-0 mt-1 p-color">Rp.89.900</span>
+                  </div>
+                  <div class="box-produk-aksi position-absolute top-0 d-flex align-items-center justify-content-center h-100 w-100">
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 text-center position-relative pb-5">
+            <div class="card card-1">
+              <div class="box-produk">
+                  <div class="box-produk-img img-fluid w-100">
+                      <img src="asset/img/Produk/p-populer-1.png" alt="" class="w-100">
+                  </div>
+                  <div class="box-produk-text py-3">
+                      <p class="font-semi m-0">Udeng Semi Batik Hitam</p>
+                      <span class="d-block m-0 mt-1 p-color">Rp.89.900</span>
+                  </div>
+                  <div class="box-produk-aksi position-absolute top-0 d-flex align-items-center justify-content-center h-100 w-100">
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 text-center position-relative pb-5">
+            <div class="card card-1">
+              <div class="box-produk">
+                  <div class="box-produk-img img-fluid w-100">
+                      <img src="asset/img/Produk/p-populer-1.png" alt="" class="w-100">
+                  </div>
+                  <div class="box-produk-text py-3">
+                      <p class="font-semi m-0">Udeng Semi Batik Hitam</p>
+                      <span class="d-block m-0 mt-1 p-color">Rp.89.900</span>
+                  </div>
+                  <div class="box-produk-aksi position-absolute top-0 d-flex align-items-center justify-content-center h-100 w-100">
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 text-center position-relative pb-5">
+            <div class="card card-1">
+              <div class="box-produk">
+                  <div class="box-produk-img img-fluid w-100">
+                      <img src="asset/img/Produk/p-populer-1.png" alt="" class="w-100">
+                  </div>
+                  <div class="box-produk-text py-3">
+                      <p class="font-semi m-0">Udeng Semi Batik Hitam</p>
+                      <span class="d-block m-0 mt-1 p-color">Rp.89.900</span>
+                  </div>
+                  <div class="box-produk-aksi position-absolute top-0 d-flex align-items-center justify-content-center h-100 w-100">
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 text-center position-relative pb-5">
+            <div class="card card-1">
+              <div class="box-produk">
+                  <div class="box-produk-img img-fluid w-100">
+                      <img src="asset/img/Produk/p-populer-1.png" alt="" class="w-100">
+                  </div>
+                  <div class="box-produk-text py-3">
+                      <p class="font-semi m-0">Udeng Semi Batik Hitam</p>
+                      <span class="d-block m-0 mt-1 p-color">Rp.89.900</span>
+                  </div>
+                  <div class="box-produk-aksi position-absolute top-0 d-flex align-items-center justify-content-center h-100 w-100">
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 text-center position-relative pb-5">
+            <div class="card card-1">
+              <div class="box-produk">
+                  <div class="box-produk-img img-fluid w-100">
+                      <img src="asset/img/Produk/p-populer-1.png" alt="" class="w-100">
+                  </div>
+                  <div class="box-produk-text py-3">
+                      <p class="font-semi m-0">Udeng Semi Batik Hitam</p>
+                      <span class="d-block m-0 mt-1 p-color">Rp.89.900</span>
+                  </div>
+                  <div class="box-produk-aksi position-absolute top-0 d-flex align-items-center justify-content-center h-100 w-100">
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 text-center position-relative pb-5">
+            <div class="card card-1">
+              <div class="box-produk">
+                  <div class="box-produk-img img-fluid w-100">
+                      <img src="asset/img/Produk/p-populer-1.png" alt="" class="w-100">
+                  </div>
+                  <div class="box-produk-text py-3">
+                      <p class="font-semi m-0">Udeng Semi Batik Hitam</p>
+                      <span class="d-block m-0 mt-1 p-color">Rp.89.900</span>
+                  </div>
+                  <div class="box-produk-aksi position-absolute top-0 d-flex align-items-center justify-content-center h-100 w-100">
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 text-center position-relative pb-5">
+            <div class="card card-1">
+              <div class="box-produk">
+                  <div class="box-produk-img img-fluid w-100">
+                      <img src="asset/img/Produk/p-populer-1.png" alt="" class="w-100">
+                  </div>
+                  <div class="box-produk-text py-3">
+                      <p class="font-semi m-0">Udeng Semi Batik Hitam</p>
+                      <span class="d-block m-0 mt-1 p-color">Rp.89.900</span>
+                  </div>
+                  <div class="box-produk-aksi position-absolute top-0 d-flex align-items-center justify-content-center h-100 w-100">
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav aria-label="Page navigation example">
+          <ul class="pagination d-flex justify-content-center">
+            <li class="page-item">
+              <a class="page-link p-color" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link second-color" href="#">1</a></li>
+            <li class="page-item"><a class="page-link second-color" href="#">2</a></li>
+              <a class="page-link p-color" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div id="footer" class="space-content bg-color text-white">
+      <div class="container">
+          <div class="row">
+              <div class="col-footer col-md-5">
+                  <h4>DN UDENG BALI</h4>
+                  <div class="footer-kontak">
+                      <img src="asset/img/icon/002-home.svg" alt="">
+                      <p>Jl. Muding Sari No.1, Kerobokan Kaja, Kec. Kuta Utara, Kabupaten Badung, Bali 80361</p>
+                  </div>
+                  <div class="footer-kontak">
+                      <img src="asset/img/icon/001-phone-call.svg" alt="">
+                      <p>+62858-5683-2502</p>
+                  </div>
+                  <div class="footer-kontak">
+                      <img src="asset/img/icon/003-clock.svg" alt="">
+                      <p>10:00 am - 20:00 pm</p>
+                  </div>
+                  <div class="footer-kontak">
+                      <img src="asset/img/icon/mdi_facebook.svg" alt="">
+                      <img src="asset/img/icon/mdi_gmail.svg" alt="">
+                      <img src="asset/img/icon/mdi_instagram.svg" alt="">
+                      <img src="asset/img/icon/mdi_twitter.svg" alt="">
+                  </div>
+              </div>
+              <div class="col-footer col-md-3">
+                  <h4>Informasi</h4>
+                  <a href="about.html"><p>Tentang Kami</p></a>
+                  <a href="produk.html"><p>Produk</p></a>
+              </div>
+              <div class="col-footer col-md-3">
+                  <h4>Bantuan</h4>
+                  <a href="contact.html"><p>Hubungi Kami</p></a>
+                  <a href="contact.html#faq"><p>FAQ</p></a>
+              </div>
+          </div>
+      </div>
+  </div>
+    <div id="copyright" class="py-3 bg-color text-white d-flex justify-content-center">
+        <p>&copy;CopyRightYusa.2021</p>
+    </div>
+    <script src="asset/plugin/jquery-3.5.1.min.js"></script>
+    <script src="asset/plugin/bootstrap-5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="asset/plugin/aos-master/dist/aos.js"></script>
+    <script>
+        // AOS
+        AOS.init();
+
+        
+        // Card javascripyt
+
+        // This is "probably" IE9 compatible but will need some fallbacks for IE8
+// - (event listeners, forEach loop)
+
+// wait for the entire page to finish loading
+window.addEventListener('load', function() {
+// setTimeout to simulate the delay from a real page load
+setTimeout(lazyLoad, 1000);
+});
+function lazyLoad() {
+    var card_images = document.querySelectorAll('.card-image');
+    
+    // loop over each card image
+    card_images.forEach(function(card_image) {
+        var image_url = card_image.getAttribute('data-image-full');
+        var content_image = card_image.querySelector('img');
+        
+        // change the src of the content image to load the new high res photo
+        content_image.src = image_url;
+        
+        // listen for load event when the new photo is finished loading
+        content_image.addEventListener('load', function() {
+            // swap out the visible background image with the new fully downloaded photo
+            card_image.style.backgroundImage = 'url(' + image_url + ')';
+            // add a class to remove the blur filter to smoothly transition the image change
+            card_image.className = card_image.className + ' is-loaded';
+        });
+        
+    });
+
+    // AOS
+        AOS.init();
+}
+    </script>
+  </body>
+</html>
